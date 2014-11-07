@@ -36,6 +36,9 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
+    <None Include="App.config" />
+    <None Include="LICENSE" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\ImpulseTigger.cs" />
