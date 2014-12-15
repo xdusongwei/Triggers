@@ -7,13 +7,13 @@ using System.Threading;
 
 namespace SongWei.Triggers
 {
-    public class ImpulseTigger
+    public class ImpulseTrigger
     {
-        public ImpulseTigger():this(false)
+        public ImpulseTrigger():this(false)
         {
 
         }
-        public ImpulseTigger(bool aInitValue)
+        public ImpulseTrigger(bool aInitValue)
         {
             _state = aInitValue;
         }

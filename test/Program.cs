@@ -12,7 +12,7 @@ namespace Triggers.Test
     {
         static void Main(string[] args)
         {
-            var imTrigger = new ImpulseTigger();
+            var imTrigger = new ImpulseTrigger();
             Debug.Assert(imTrigger.State == false);
             imTrigger.Reset();
             Debug.Assert(imTrigger.State == false);
@@ -21,7 +21,7 @@ namespace Triggers.Test
             imTrigger.Reset();
             imTrigger.Trigging(() => Debug.Assert(imTrigger.State == true));
             imTrigger.Reset(() => Debug.Assert(imTrigger.State == false));
-            var n2Trigger = new LeveledImpulseTigger(1);
+            var n2Trigger = new LeveledImpulseTrigger(1);
             Debug.Assert(n2Trigger.State == 0);
             n2Trigger.Relaxing();
             Debug.Assert(n2Trigger.State == 0);

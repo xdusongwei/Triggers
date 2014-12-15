@@ -5,9 +5,9 @@ using System.Text;
 
 namespace SongWei.Triggers
 {
-    public class LeveledImpulseTigger
+    public class LeveledImpulseTrigger
     {
-        public LeveledImpulseTigger(int n,int inital = 0)
+        public LeveledImpulseTrigger(int n,int inital = 0)
         {
             if (n > 0)
                 _level = n;
