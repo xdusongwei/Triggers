@@ -3,12 +3,12 @@ Triggers
 
 .NET Framework中小小的触发工具
 
-ImpulseTigger
+ImpulseTrigger
 =============
 
 一个二态触发器，状态发生改变的时候触发Action
 
-LeveledImpulseTigger
+LeveledImpulseTrigger
 ====================
 
 一个多态触发器，状态发生改变至0或阀值时触发Action
